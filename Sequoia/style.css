@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    background: black;
+}
+
+.container {
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 62px;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+}
+
+.logo p {
+    display: flex;
+    margin-left: 21px;
+}
+
+span {
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-left: 7px;
+}
+
+.call {
+    display: flex;
+    margin-left: 340px;
+}
+
+.text {
+    opacity: 50%;
+}
+
+.number {
+    margin-left: 34px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.menu-logo {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 30px;
+}
+
+.menu-logo span {
+    background: white;
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 3px;
+}
+
+.menu-logo span:nth-child(2) {
+    width: 20px;
+}
+
+.menu-logo span:nth-child(3) {
+    width: 10px;
+}
+
+.header-content {
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.merits {
+    font-style: italic;
+    margin-left: 0;
+
+}
+
+.merits span {
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-right: 40px;
+    margin-left: 0;
+    letter-spacing: normal;
+}
+
+.description {
+    margin-top: 107px;
+}
+
+.help-text {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.introtext {
+    margin-top: 15px;
+    width: 366px;
+    margin-bottom: 68px;
+}
+
+.border {
+    color: #ab3333;
+    border: 1px solid #AB3333;
+    border-radius: 33px;
+    text-decoration: none;
+    padding: 27px 32px;
+    transition: all 0.3s ease;
+}
+
+.border:hover {
+    background-color: #AB3333;
+    color: white;
+}
+
+.news {
+    margin-top: 87px;
+    margin-bottom: 69px;
+    width: 336px;
+}
+
+.news a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.news-pic {
+    border-radius: 15px;
+    display: block;
+}
+
+.news-info {
+    margin-left: 26px;
+}
+
+.slider-pic {
+    display: block;
+    margin-top: 70px;
+    width: 928px;
+}
+
+.slider-nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 241px;
+}
+
+.arrow {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.slider-nav .arrow:first-child {
+    margin-right: 24px;
+}
+
+.slider-nav .arrow:last-child {
+    margin-left: 24px;
+}
+
+
+.triggers {
+    display: flex;
+    justify-content: space-between;
+    width: 156px;
+}
+
+.triggers span {
+    margin: 0;
+    width: 48px;
+    height: 44px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    display: block;
+    opacity: 0.4;
+}
+
+.triggers span.active {
+    opacity: 1;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 1440px) {
+    .slider-pic {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .call {
+        margin-left: 250px;
+    }
+    .slider-pic {
+        width: 700px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .call {
+        margin-left: 150px;
+        flex-wrap: wrap;
+    }
+    .call p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .header-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offer {
+        order: 1;
+        margin-top: 50px;
+    }
+    .slider-pic {
+        margin: 0;
+    }
+    .slider-nav {
+        margin-top: 30px;
+    }
+    .merits {
+        margin-left: 280px;
+    }
+    .description {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .introtext {
+        width: 800px;
+    }
+    .news {
+        margin-left: 240px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .call {
+        order: 1;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .number {
+        margin-left: 15px;
+    }
+    .introtext {
+        width: 400px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .merits {
+        margin-left: 100px;
+    }
+    .news {
+        margin-left: 70px;
+    }
+    .slider-pic {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav {
+        padding: 20px;
+    }
+    .call {
+        order: 2;
+        margin-left: 0;
+    }
+    .number {
+        margin-left: 50px;
+    }
+    .menu-logo {
+        order: 1;
+        margin-top: 10px;
+    }
+    .header-content {
+        margin-top: 30px;
+    }
+    .slider-pic {
+        width: 350px;
+    }
+}
