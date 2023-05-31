@@ -47,8 +47,13 @@ nav div {
     margin-right: 0;
 }
 
-.nav li:hover {
-    cursor: pointer;
+nav a {
+    text-decoration: underline;
+    color: rgb(228, 228, 234);
+    text-decoration: none;
+}
+
+.nav a:hover {
     text-decoration: underline;
     color: gold;
 }
@@ -59,29 +64,40 @@ nav div {
 }
 
 .text {
-    margin-top: 60px;
-
+    margin-top: 70px;
 }
 
+.text p {
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
 h1 span {
     color: goldenrod;
 }
 
 .social {
-    margin-top: 30px;
+    margin-top: 175px;
 }
 
-ul li img {
-    margin-top: 173px;
-    width: 33px;
+ul li {
     margin-right: 30px;
 }
 
-.social ul li img:hover {
-    cursor: pointer;
+ul li img {
+    width: 33px;
 }
 
+.social ul li img {
+    transition: .5s;
+}
 
+.social ul li img:hover {
+    transform: scale(1.2);
+}
 
 .main_img {
     margin-left: auto;
@@ -89,5 +105,4 @@ ul li img {
 
 .main_img img {
     width: 500px;
-    
 }
