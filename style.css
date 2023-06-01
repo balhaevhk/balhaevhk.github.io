@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    color: rgb(228, 228, 234);
+    color: gray;
     background-repeat: no-repeat;
 }
 
@@ -28,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-.container_header_footer {
+.container {
     width: 1000px;
     margin: 0 auto;
 }
@@ -74,14 +78,15 @@ nav a:hover {
 }
 
 .text p {
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 h1 {
     font-size: 40px;
     margin-top: 0;
+    color: rgb(228, 228, 234);
 }
-h1 span {
+span {
     color: goldenrod;
 }
 
@@ -110,5 +115,40 @@ ul li img {
 }
 
 .main_img img {
-    width: 500px;
+    display: block;
+    width: 503px;
+}
+
+section {
+    background-color: snow;
+    padding-top: 70px;
+}
+
+.about_me {
+    display: flex;
+}
+
+.second_img {
+    margin-right: 20px;
+}
+
+.second_img img {
+    display: block;
+    width: 250px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.text_description p {
+    text-align: justify;
+}
+
+.anchor_about_me {
+    opacity: 0.4;
+    margin-top: 0;
+}
+
+h2 {
+    color: #000;
+    opacity: 0.7;
 }
