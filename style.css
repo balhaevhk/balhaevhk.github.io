@@ -90,7 +90,7 @@ span {
     color: goldenrod;
 }
 
-.social {
+.social_header {
     margin-top: 175px;
 }
 
@@ -102,11 +102,11 @@ ul li img {
     width: 33px;
 }
 
-.social ul li img {
+.social_header ul li img {
     transition: .5s;
 }
 
-.social ul li img:hover {
+.social_header ul li img:hover {
     transform: scale(1.2);
 }
 
@@ -157,10 +157,6 @@ h2 {
 .text_description_skills p {
     text-align: justify;
 }
-
-
-
-
 
 .values {
     margin-top: 30px;
@@ -233,12 +229,6 @@ h2 {
     margin-bottom: 0;
   }
 
-
-
-
-
-
-
 .text_description_portfolio p {
     text-align: justify;
 }
@@ -247,6 +237,7 @@ h2 {
     display: grid;
     grid-gap: 1em;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 70px;
 }
 
 .my_portfolio img {
@@ -258,7 +249,6 @@ h2 {
 .work {
     position: relative;
 }
-
 
 .job_description h3, .job_description p {
     margin: 0;
@@ -288,4 +278,98 @@ h2 {
 
 .work:hover img {
     transform: scale(1.1);
+}
+
+
+
+
+
+
+footer {
+    background: linear-gradient(rgb(37, 36, 36), rgb(61, 60, 60), rgb(37, 36, 36));
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.contact_me {
+    display: flex;
+}
+
+footer h2, .white {
+    color: white;
+}
+
+.white {
+    opacity: 0.7;
+}
+
+.methods_of_communication {
+    margin-top: 45px;
+}
+
+.methods_of_communication a {
+    color: gray;
+}
+
+.methods_of_communication p {
+    margin-bottom: 30px;
+}
+    
+.methods_of_communication a:hover {
+    text-decoration: underline;
+}
+
+.methods_of_communication a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+.text_description_contact_me {
+    width: 600px;
+    margin-right: 50px;
+}
+
+.container_form {
+    display: block;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: linear-gradient(rgb(37, 36, 36), rgb(61, 60, 60), rgb(37, 36, 36));
+}
+
+.contact_form {
+    margin: 45px;
+    display: block;
+}
+
+.contact_form h2, .input {
+    margin-bottom: 30px;
+}
+
+.input {
+    width: 100%;
+    height: 25px;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    display: block;
+}
+
+.input:focus {
+    color: gray;
+  background-color: transparent;
+  outline: 1px solid gold;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+button {
+    width: 100%;
+    height: 40px;
+    color: gray;
+}
+
+button:focus {
+    background-color: goldenrod;
 }
