@@ -325,6 +325,14 @@ footer h2, .white {
     color: gold;
 }
 
+.social_footer ul li img {
+    transition: .5s;
+}
+
+.social_footer ul li img:hover {
+    transform: scale(1.2);
+}
+
 .text_description_contact_me {
     width: 600px;
     margin-right: 50px;
