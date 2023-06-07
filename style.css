@@ -460,29 +460,30 @@ button:focus {
         display: none;
     }
     .greeting {
-        margin-top: 10px;
-    }
-    .text p, .text h1 {
-        font-size: 9px;
+        margin-top: 0;
+        flex-wrap: wrap;
     }
     .text {
-        width: 150px;
+        width: 100%;
         margin-top: 0;
     }
+    .text p {
+        margin: 5px auto;
+    }
+    h1 {
+        margin-bottom: 2px;
+    }
     .social_header {
-        margin-top: 10px;
-    }
-    .social_header li {
-        margin-right: 10px;
-    }
-    .social_header img {
-        width: 15px;
+        display: none;
     }
     .main_img {
-        margin-top: 5px;
+        position: relative;
+        display: flex;
+        margin: 0;
     }
     .main_img img {
-        width: 143px;
+        transform: translate(23%);
+        width: 200px;
     }
     section {
         padding-top: 10px;
@@ -517,7 +518,7 @@ button:focus {
     }
     .choise_of_design, .choise_of_developer {
         height: 80px;
-        width: 140px;
+        width: 138px;
     }
     progress {
         width: 280px;
@@ -543,7 +544,6 @@ button:focus {
     .text_description_contact_me {
         margin-right: auto;
     }
-
     .text_description_contact_me p {
         text-align: justify;
     }
