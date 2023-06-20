@@ -1,0 +1,61 @@
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+@media (min-width: 540px) {
+    .subscribe-form {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.subscribe-form__input {
+    font-family: 'Noto Sans', sans-serif;    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #F72464;
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+@media (min-width: 540px) {
+    .subscribe-form__input {
+        width: 229px;
+        margin-bottom: 0;
+    }
+}
+
+.subscribe-form__submit {
+    background: #F72464;
+    border-radius: 4px;
+    border: none;
+    height: 42px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+@media (min-width: 540px) {
+    .subscribe-form__submit {
+        width: 134px;
+    }
+}
+
+.subscribe-form__submit:hover {
+    box-shadow: 0px 2px 15px rgba(184, 13, 64, 0.671);
+    background-color: #ff4387;
+}
+
