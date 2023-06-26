@@ -9,6 +9,11 @@ body {
     background-repeat: no-repeat;
 }
 
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     display: flex;
     list-style: none;
