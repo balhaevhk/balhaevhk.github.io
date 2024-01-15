@@ -2,9 +2,12 @@
     .nav-list {
         column-gap: 20px;
     }
+    
+    .header-content {
+        margin-top: 70px;
+    }
 
     .header-content h1 {
-        margin-top: 70px;
         font-size: 24px;
     }
 
