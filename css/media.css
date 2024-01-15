@@ -1,0 +1,156 @@
+@media (max-width: 888px) {
+    .nav-list {
+        column-gap: 20px;
+    }
+
+    .header-content h1 {
+        margin-top: 70px;
+        font-size: 24px;
+    }
+
+    .header-content p {
+        font-size: 13px;
+    }
+
+    .about_skills-heading{
+        width: 100%;
+    }
+
+    .service-card_skills {
+        flex-direction: column;
+    }
+    
+    .service-card_skills:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .portfolio-title {
+        width: 100%;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .my_works, .frontend_developer, .web_mastering {
+        margin-top: 10px;
+    }
+    
+    
+}
+
+
+
+
+@media (max-width: 555px) {
+    body {
+        font-size: 13px;
+    }    
+
+    .header-nav {
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        row-gap: 0px;
+        text-align: center;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin-top: 10px;
+    }
+
+    .header-content h1 {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 1.1;
+        text-align: center;
+
+    }
+
+    .header-content p {
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+    .about_me-heading {
+        font-size: 20px;
+    }
+
+    .about_skills-heading{
+        font-size: 20px;
+    }
+
+    .service-card_skills + .service-card_skills {
+        margin-top: 10px;
+    }
+
+    .skills-direction h3 {
+        font-size: 17px;
+        font-weight: 500;
+
+    }
+
+    .portfolio-title {
+        font-size: 20px;
+    }
+
+    .button {
+        margin-top: 5px;
+    }
+
+    .my_works, .frontend_developer, .web_mastering {
+        margin-top: 5px;
+    }
+
+    .contacts {
+        padding: 20px 0;
+    }
+
+    .contacts-title {
+        font-size: 20px;
+    }
+
+    .contacts-content {
+        font-size: 15px;
+    }
+
+    .contact-social {
+        column-gap: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .contact-social img {
+        width: 30px;
+
+    }
+    
+    .contacts-footer {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+    
+}
