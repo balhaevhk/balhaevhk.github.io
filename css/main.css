@@ -355,6 +355,9 @@ body {
     width: 30px;
 }
 
+.contacts-footer {
+    margin-bottom: 30px;
+}
 .contacts-footer a {
     color: #828282;
 }
