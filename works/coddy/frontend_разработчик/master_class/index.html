@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Мастер класс</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Caveat', cursive;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to right, #030407, #1f284f, #3c509b);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            padding: 4rem 8rem;
+            height: auto;
+        }
+
+        .wrapper {
+            display: flex;
+            gap: 8rem;
+            align-items: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-weight: 500;
+            font-size: 64px;
+            letter-spacing: 0.03rem;
+            text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.62);
+        }
+
+        .name {
+            font-size: 96px;
+            line-height: 135%;
+            font-weight: 700;
+        }
+
+        img {
+            height: 600px;
+            border-radius: 1rem;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.62);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <h1>Hello, my name is <br> <span class="name">Name</span></h1>
+            <img src="https://i.pinimg.com/474x/eb/80/b8/eb80b83b47b9d68779dcc3b5a7dafcab.jpg" alt="Картинка">
+        </div>
+    </main>
+</body>
+</html>
